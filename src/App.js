@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import './index.css';
+import Carousel from './Carousel';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='min-h-screen bg-gradient-to-b from-amber-300 via-yellow-100 to-stone-200 text-white '>
+ <Header />
+ <Carousel />
+ </div>
   );
 }
 
