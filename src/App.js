@@ -3,6 +3,7 @@ import './index.css';
 import Carousel from './Carousel';
 import Header from './Header';
 import ContactIcons from './ContactIcons';
+import Description from './Description';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
  <Header />
 <Carousel />
  <ContactIcons />
+ <Description />
  </div>
   );
 }
