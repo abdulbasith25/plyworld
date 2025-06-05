@@ -3,8 +3,8 @@ import { FiPhoneCall } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
 const ContactIcons = () => {
-  const phoneNumber = "9876543210";
-  const whatsappNumber = "919876543210";
+  const phoneNumber = "9048214175";
+  const whatsappNumber = "9048214175";
   const whatsappMessage = "Hello! I want to know more.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
