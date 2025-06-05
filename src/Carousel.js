@@ -18,13 +18,14 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="w-200 h-150 overflow-hidden relative rounded-lg flex items-center justify-center pt-4 ">
+    <div className="w-200 h-150 overflow-hidden relative  flex items-center justify-center pt-4  ">
       <img
         src={images[index]}
         alt={`slide-${index}`}
-        className="w-100 h-full object-cover transition-all duration-700 ease-in-out rounded-xl"
+        className="w-100 h-full object-cover transition-all duration-700 ease-in-out "
       />
-      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex space-x-2">
+
         {images.map((_, i) => (
           <div
             key={i}
